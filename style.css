@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+p{
+    text-align: justify;
+}
+
+body{
+    min-width: 730px;
+    margin: 0%;
+    padding-top: 0%;
+}
+h2{
+    padding-left: 20px;
+}
+
+main{
+    min-width: 730px;
+}
+
+div#tema{
+    font-size: 1.5em;
+    width: 100%;
+    color: white;
+    background-color: #9e8bff;
+    display: inline-block;
+    margin-bottom: 200px;
+}
+
+div#bolocosreceitas{
+    text-align: center;
+}
+
+header{
+    color: white;
+    background-color: #edb183;
+    margin: 0%;
+    margin-bottom: 200px;
+}
+
+div#logo{
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+}
+
+div#logo> h1{
+    margin: 0%;
+}
+
+header>div#redessociais{
+    padding-top: 0px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+div#redessociais>p{
+    text-align: right;
+}
+
+div#menu>p{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 55px;
+}
+
+p#quemsoueu{
+    width: 800px;
+    display: inline-block;
+    padding-right: 100px;
+}
+
+nav.fotoquemsoueu{
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+}
+
+div.interna{
+    padding: 20px;
+}
+
+div#t1{
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 65px;
+}
+
+div.interna>nav#fotoquemsoueu{
+    display: flex;
+}
+
+
+
+
+nav{
+    display: inline-block;
+}
+
+nav#fotoquemsoueu{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+}
+
+
+
+
+nav#numerodica{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+}
+
+nav#receita{
+    text-align: center;
+    margin-right: 150px;
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
