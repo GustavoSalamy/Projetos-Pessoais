@@ -4,6 +4,11 @@ p{
     text-align: justify;
 }
 
+p>a{
+    text-decoration: none;
+    color: white;
+}
+
 body{
     background-color: #dcf8d9c7;
     min-width: 730px;
@@ -58,13 +63,33 @@ header>div#redessociais{
 }
 
 div#redessociais>p{
-    text-align: right;
+    text-align: center;
+}
+
+img.logoinsta{
+    width: 15px;
+    right: 15px;
+}
+
+div#redessociais:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: #52488598 0px 0px 45px 15px;
 }
 
 div#menu>p{
+    text-align: center;
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 55px;
+    margin-left: 15px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+div#menu>p:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f5c199;
+    font-weight: bolder;
 }
 
 p#quemsoueu{
@@ -136,12 +161,22 @@ div#receitas{
 }
 
 nav#receita{
+    box-shadow: #52488598 0px 0px 45px -7px;
     margin: auto;
     text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-color: lightgreen;
     margin-bottom: 44px;
+    border-radius: 10%;
+}
+
+nav#receita:hover{
+    font-weight: bold;
+    cursor: pointer;
+    width: 351px;
+    height: 351px;
+    box-shadow: #52488598 0px 0px 45px 7px;
 }
 
 div#news{
