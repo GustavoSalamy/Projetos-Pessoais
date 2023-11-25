@@ -172,11 +172,26 @@ div#dicas>h3{
     display: inline-block;
 }
 
+div.maisdicas>p{
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px 10px 15px;
+    width: 200px;
+    margin: auto;
+}
+
+div.maisdicas>p:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: #52488598 0px 0px 45px -7px;
+}
+
 div#dicas{
     padding-top: 0px;
     display: flex;
     padding: 20px 30px 0px 30px;
-    background-color: rgba(159, 190, 155, 0.671) ;
+    background-color: rgba(159, 190, 155, 0.671);
     display: inline-block;
     box-shadow: #52488598 0px 0px 45px -7px;
     border-radius: 40px;
@@ -205,6 +220,21 @@ nav#receita:hover{
     width: 351px;
     height: 351px;
     box-shadow: #52488598 0px 0px 45px 7px;
+}
+
+div.maisreceitas>p{
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px 10px 15px;
+    width: 250px;
+    margin: auto;
+}
+
+div.maisreceitas>p:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: #52488598 0px 0px 45px -7px;
 }
 
 div#news{
