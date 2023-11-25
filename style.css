@@ -84,7 +84,7 @@ div#redessociais:hover{
     cursor: pointer;
 }
 
-img.nutrisb{
+img.nutrisb1{
     width: 130px;
     right: 130px;
 
@@ -217,13 +217,40 @@ div#news{
 }
 
 footer{
-    padding: 20px;
+    padding: 30px;
     color: white;
     background-color: #56282d;
     margin: 0%;
-    height: 200px;
+    height: 130px;
+    font-size: 0.8em;
+
+}
+
+h4>img{
+    height: 40px;
+    width: 70px;
+
 }
 
 div.int-footer>p{
     margin-bottom: 0px;
+}
+
+div.internafooter{
+    display: flex;
+}
+
+div.informacoessah{
+    text-align: center;
+    margin: auto;
+}
+
+div.int-footer>a{
+    text-decoration: none;
+    color: white;
+}
+
+div.informacoessah>a{
+    text-decoration: none;
+    color: white;
 }
