@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-* {
-    cursor: default;
-}
-
 html{
     scroll-behavior: smooth;
 }
@@ -271,7 +267,7 @@ footer{
 }
 
 h4>img{
-    height: 40px;
+    height: 60px;
     width: 70px;
 
 }
