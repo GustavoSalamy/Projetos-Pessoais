@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+    cursor: default;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -117,10 +121,9 @@ a>p.menu:hover{
 
 p#quemsoueu{
     background-color: rgba(159, 190, 155, 0.671);
-    width: 800px;
     padding: 20px 25px 20px 25px;
     border-radius: 40px;
-    margin-top: 0px;
+    margin-top: 0px auto;
     margin-right: 20px;
     box-shadow: #52488598 0px 0px 45px -7px;
     display: flex;
@@ -133,17 +136,27 @@ div.interna{
 }
 
 div#t1{
+    text-align: center;
     align-items: center;
-    display: flex;
+    display: block;
+    padding-top: 0px;
+}
+
+div#t2{
     padding-top: 0px;
 }
 
 div#t1>img.fotoquemsoueu{
+    max-height: 400px;
     border-radius: 40px;
     background-color: lightgreen;
     margin-right: 20px;
-    display: flex;
     box-shadow: #52488598 0px 0px 45px -7px;
+}
+
+h2.quemsoueu{
+    padding: 0px;
+    text-align: center;
 }
 
 nav{
