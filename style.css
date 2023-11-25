@@ -49,6 +49,7 @@ div.tema{
 header{
     color: white;
     background-color: #edb183;
+    box-shadow: #a2bd9fc7 0px 0px 45px -7px;
     margin: 0%;
     margin-bottom: 200px;
 }
