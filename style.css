@@ -37,6 +37,7 @@ h2{
 main{
     max-width: 1920px;
     min-width: 730px;
+    margin: auto;
 }
 
 div.tema{
