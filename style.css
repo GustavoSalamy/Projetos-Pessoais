@@ -225,6 +225,8 @@ nav#receita{
 }
 
 nav#receita:hover{
+    transform: scale(1.2);
+    transition: 300ms;
     font-weight: bold;
     cursor: pointer;
     width: 351px;
@@ -269,7 +271,6 @@ footer{
 h4>img{
     height: 60px;
     width: 70px;
-
 }
 
 div.int-footer>p{
