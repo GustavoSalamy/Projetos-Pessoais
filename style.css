@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+@keyframes animatefoco {
+    from {
+        opacity: 0;
+    } to {
+            opacity: 1;
+    }
+}
+
+
+.topo {
+    animation: animatefoco 2s;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -206,6 +219,37 @@ div#dicas{
     box-shadow: #52488598 0px 0px 45px -7px;
     border-radius: 40px;
     margin: 0px 20px 20px 20px;
+}
+
+div.dicasanimation{
+    opacity: 1;
+    translate: 0 0;
+    transition: 2s;
+    padding-top: 0px;
+    padding: 20px;
+    display: inline-block;
+    transition: 2s;
+    padding-top: 0px;
+    display: flex;
+    padding: 20px 30px 0px 30px;
+    background-color: rgba(159, 190, 155, 0.671);
+    display: inline-block;
+    box-shadow: #52488598 0px 0px 45px -7px;
+    border-radius: 40px;
+    margin: 0px 20px 20px 20px;
+}
+
+div.dicasinternas{
+    opacity: 0;
+    filter: blur(15px);
+    translate: -100vw 0;
+    transition: 2s;
+}
+
+div#dicas:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 300ms;
 }
 
 div#receitas{
