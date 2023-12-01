@@ -1,55 +1,75 @@
 @charset "UTF-8";
 
-@keyframes animatefoco {
-    from {
-        opacity: 0;
-    } to {
-            opacity: 1;
-    }
+.topo{
+    opacity: 0;
+    transition: 2s;
+    filter: blur(15px);
+    translate: 0 -10vw;
 }
 
 
-.topo {
-    animation: animatefoco 2.5s;
+.topoanimate{
+    opacity: 1;
+    transition: 2s;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-p{
+p {
     text-align: justify;
 }
 
-p>a{
+p>a {
     text-decoration: none;
     color: white;
 }
 
-body{
+body {
     background-color: #dcf8d9c7;
     min-width: 730px;
     margin: 0%;
     padding-top: 0%;
 }
 
-h1{
+h1 {
     font-weight: lighter;
     cursor: pointer;
 }
 
-h2{
+h2 {
     letter-spacing: 2px;
     padding-left: 40px;
 }
 
-main{
+.quemsoueu {
+    opacity: 0;
+    transition: 1s;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    padding: 0px;
+    text-align: center;
+    filter: blur(15px);
+    translate: -100vw 0;
+}
+
+.quemsoueuanimate{
+    opacity: 1;
+    transition: 2s;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    padding: 0px;
+    text-align: center;
+}
+
+main {
     max-width: 1920px;
     min-width: 730px;
     margin: auto;
 }
 
-div.tema{
+div.tema {
     font-size: 1.5em;
     width: 100%;
     color: white;
@@ -60,7 +80,7 @@ div.tema{
     margin-top: 0px;
 }
 
-header{
+header {
     color: white;
     background-color: #edb183;
     box-shadow: #a2bd9fc7 0px 0px 45px -7px;
@@ -68,18 +88,18 @@ header{
     margin-bottom: 200px;
 }
 
-div#logo{
+div#logo {
     font-size: 2em;
     padding: 20px;
     padding-bottom: 0px;
     text-align: center;
 }
 
-div#logo> h1{
+div#logo>h1 {
     margin: 0%;
 }
 
-header>div#redessociais{
+header>div#redessociais {
     margin: auto;
     margin-top: 1px;
     padding-top: 0px;
@@ -88,28 +108,28 @@ header>div#redessociais{
     font-size: 1.2em;
 }
 
-div#redessociais>p{
+div#redessociais>p {
     text-align: center;
 }
 
-div#redessociais:hover{
+div#redessociais:hover {
     text-decoration: underline;
     font-weight: bold;
     cursor: pointer;
 }
 
-img.nutrisb1{
+img.nutrisb1 {
     width: 130px;
     right: 130px;
 
 }
 
-img.logoinsta{
+img.logoinsta {
     width: 15px;
     right: 15px;
 }
 
-div#menu>a{
+div#menu>a {
     text-decoration: none;
     color: white;
     text-align: center;
@@ -118,18 +138,18 @@ div#menu>a{
     margin-right: 50px;
 }
 
-a>p.menu{
+a>p.menu {
     padding: 5px 10px 5px 10px;
 }
 
-a>p.menu:hover{
+a>p.menu:hover {
     border-radius: 10px;
     cursor: pointer;
     background-color: #f5c199;
     font-weight: bolder;
 }
 
-p#quemsoueu{
+p#quemsoueu {
     background-color: rgba(159, 190, 155, 0.671);
     padding: 20px 25px 20px 25px;
     border-radius: 40px;
@@ -139,24 +159,24 @@ p#quemsoueu{
     display: flex;
 }
 
-div.interna{
+div.interna {
     padding-top: 0px;
     padding: 20px;
     display: inline-block;
 }
 
-div#t1{
+div#t1 {
     text-align: center;
     align-items: center;
     display: block;
     padding-top: 0px;
 }
 
-div#t2{
+div#t2 {
     padding-top: 0px;
 }
 
-div#t1>img.fotoquemsoueu{
+div#t1>img.fotoquemsoueu {
     max-height: 400px;
     border-radius: 40px;
     background-color: lightgreen;
@@ -164,16 +184,11 @@ div#t1>img.fotoquemsoueu{
     box-shadow: #52488598 0px 0px 45px -7px;
 }
 
-h2.quemsoueu{
-    padding: 0px;
-    text-align: center;
+nav {
+    display: inline-block;
 }
 
-nav{
-    display: inline-block;
-}   
-
-nav#numerodica{
+nav#numerodica {
     border: 2px solid black;
     width: 150px;
     height: 150px;
@@ -181,13 +196,13 @@ nav#numerodica{
     display: inline-flex;
 }
 
-div#dicas>p{
+div#dicas>p {
     padding: 0;
     display: inline-block;
     width: 80%;
 }
 
-div#dicas>h3{
+div#dicas>h3 {
     margin: 0px 20px 0px 5px;
     padding: 0;
     font-size: 6em;
@@ -195,7 +210,7 @@ div#dicas>h3{
     display: inline-block;
 }
 
-div.maisdicas>p{
+div.maisdicas>p {
     text-align: center;
     font-size: 0.8em;
     padding: 5px 10px 15px;
@@ -203,14 +218,14 @@ div.maisdicas>p{
     margin: auto;
 }
 
-div.maisdicas>p:hover{
+div.maisdicas>p:hover {
     border-radius: 10px;
     cursor: pointer;
     font-weight: bolder;
     box-shadow: #52488598 0px 0px 45px -7px;
 }
 
-div#dicas{
+div#dicas {
     padding-top: 0px;
     display: flex;
     padding: 20px 30px 0px 30px;
@@ -221,7 +236,7 @@ div#dicas{
     margin: 0px 20px 20px 20px;
 }
 
-div.dicasanimation{
+div.dicasanimation {
     opacity: 1;
     translate: 0 0;
     transition: 1s;
@@ -238,25 +253,25 @@ div.dicasanimation{
     margin: 0px 20px 20px 20px;
 }
 
-div.dicasinternas{
+div.dicasinternas {
     opacity: 0;
     filter: blur(15px);
     translate: -100vw 0;
     transition: 2s;
 }
 
-div#dicas:hover{
+div#dicas:hover {
     cursor: pointer;
     transform: scale(1.03);
     transition: 300ms;
 }
 
-div#receitas{
+div#receitas {
     display: flex;
     justify-content: center;
 }
 
-nav#receita{
+nav#receita {
     box-shadow: #52488598 0px 0px 45px -7px;
     margin: auto;
     text-align: center;
@@ -267,7 +282,7 @@ nav#receita{
     border-radius: 10%;
 }
 
-nav#receita:hover{
+nav#receita:hover {
     transform: scale(1.2);
     transition: 300ms;
     font-weight: bold;
@@ -277,7 +292,7 @@ nav#receita:hover{
     box-shadow: #52488598 0px 0px 45px 7px;
 }
 
-div.maisreceitas>p{
+div.maisreceitas>p {
     text-align: center;
     font-size: 0.8em;
     padding: 5px 10px 15px;
@@ -285,14 +300,14 @@ div.maisreceitas>p{
     margin: auto;
 }
 
-div.maisreceitas>p:hover{
+div.maisreceitas>p:hover {
     border-radius: 10px;
     cursor: pointer;
     font-weight: bolder;
     box-shadow: #52488598 0px 0px 45px -7px;
 }
 
-div#news{
+div#news {
     padding-top: 0px;
     background-color: rgba(159, 190, 155, 0.671);
     padding: 20px 20px 20px 20px;
@@ -301,7 +316,7 @@ div#news{
     box-shadow: #52488598 0px 0px 45px -7px;
 }
 
-footer{
+footer {
     padding: 30px;
     color: white;
     background-color: #56282d;
@@ -311,35 +326,35 @@ footer{
 
 }
 
-h4>img{
+h4>img {
     height: 60px;
     width: 70px;
 }
 
-div.int-footer>p{
+div.int-footer>p {
     margin-bottom: 0px;
 }
 
-div.internafooter{
+div.internafooter {
     display: flex;
 }
 
-div.informacoessah{
+div.informacoessah {
     text-align: center;
     margin: auto;
 }
 
-div.int-footer>a{
+div.int-footer>a {
     text-decoration: none;
     color: white;
 }
 
-div.informacoessah>a{
+div.informacoessah>a {
     text-decoration: none;
     color: white;
 }
 
-div.moreinfo{
+div.moreinfo {
     line-height: 15px;
     font-size: 0.9em;
 }
