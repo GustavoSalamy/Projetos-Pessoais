@@ -18,8 +18,6 @@ const myobserverh2 = new IntersectionObserver((h2element) => {
     h2element.forEach((h2entry) => {
         if (h2entry.isIntersecting) {
             h2entry.target.classList.add('quemsoueuanimate') + h2entry.target.classList.remove('quemsoueu')
-        } else {
-            h2entry.target.classList.remove('quemsoueuanimate')
         }
     })
 })
