@@ -39,3 +39,15 @@ const myobservertopo = new IntersectionObserver((topoelement) => {
 
 const elementtopo = document.querySelectorAll('.topo')
 elementtopo.forEach((elementstopo) => myobservertopo.observe(elementstopo))
+
+
+const myobserverfoto = new IntersectionObserver((fotoelement) => {
+    fotoelement.forEach((fotoentry) => {
+        if (fotoentry.isIntersecting) {
+            fotoentry.target.classList.add('fotoquemsoueuanimate') + fotoentry.target.classList.remove('fotoquemsoueu')
+        }
+    })
+})
+
+const elementfoto = document.querySelectorAll('.fotoquemsoueu')
+elementfoto.forEach((elementsfoto) => myobserverfoto.observe(elementsfoto))
