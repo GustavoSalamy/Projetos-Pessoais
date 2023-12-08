@@ -43,7 +43,7 @@ h2 {
     padding-left: 40px;
 }
 
-.quemsoueu {
+.h2tema {
     opacity: 0;
     transition: 1s;
     letter-spacing: 2px;
@@ -51,10 +51,10 @@ h2 {
     padding: 0px;
     text-align: center;
     filter: blur(15px);
-    translate: -100vw 0;
+    translate: -90vw 0;
 }
 
-.quemsoueuanimate{
+.h2temaanimate{
     opacity: 1;
     transition: 2s;
     letter-spacing: 3px;
@@ -149,7 +149,7 @@ a>p.menu:hover {
     font-weight: bolder;
 }
 
-p#quemsoueu {
+.pquemsoueu {
     background-color: rgba(159, 190, 155, 0.671);
     padding: 20px 25px 20px 25px;
     border-radius: 40px;
@@ -157,6 +157,22 @@ p#quemsoueu {
     margin-right: 20px;
     box-shadow: #52488598 0px 0px 45px -7px;
     display: flex;
+    opacity: 0;
+    filter: blur(15px);
+    translate: -50vw 0;
+}
+
+.pquemsoueuanimate{
+    background-color: rgba(159, 190, 155, 0.671);
+    padding: 20px 25px 20px 25px;
+    border-radius: 40px;
+    margin-top: 0px auto;
+    margin-right: 20px;
+    box-shadow: #52488598 0px 0px 45px -7px;
+    display: flex;
+    opacity: 1;
+    transition: 2s;
+    translate: 0 0;
 }
 
 div.interna {
@@ -270,7 +286,7 @@ div.dicasanimation {
 div.dicasinternas {
     opacity: 0;
     filter: blur(15px);
-    translate: -100vw 0;
+    translate: -90vw 0;
     transition: 2s;
 }
 
@@ -293,6 +309,19 @@ nav#receita {
     height: 350px;
     background-color: lightgreen;
     margin-bottom: 44px;
+}
+
+nav.receita{
+    opacity: 0;
+    filter: blur(15px);
+    translate: 0 -20vw;
+    transition: 2s;
+}
+
+nav.receitaanimation{
+    opacity: 1;
+    translate: 0 0;
+    transition: 2s;
 }
 
 nav#receita:hover {
