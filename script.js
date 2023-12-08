@@ -43,7 +43,7 @@ elementtopo.forEach((elementstopo) => myobservertopo.observe(elementstopo))
 
 const myobserverfoto = new IntersectionObserver((fotoelement) => {
     fotoelement.forEach((fotoentry) => {
-        if (fotoentry.isIntersecting) {
+        if (fotoentry.isIntersecting === true || window.scrollY > 10) {
             fotoentry.target.classList.add('fotoquemsoueuanimate') + fotoentry.target.classList.remove('fotoquemsoueu')
         }
     })

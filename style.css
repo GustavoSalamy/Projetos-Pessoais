@@ -371,3 +371,29 @@ div.moreinfo {
     line-height: 15px;
     font-size: 0.9em;
 }
+
+div#iraotopo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+div#iraotopo > a {
+    text-decoration: none;
+}
+
+p.iraotopo{
+    border-radius: 50%;
+    line-height: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5em;
+    padding: 20px;
+    padding-top: 25px;
+    opacity: .5;
+    background-color: #3b1c1f;
+}
+
+p.iraotopo:hover{
+    opacity: 1;
+}
