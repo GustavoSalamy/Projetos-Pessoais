@@ -427,6 +427,7 @@ form>p{
     padding: 20px;
     margin: 0;
     text-align: center;
+    text-decoration: underline;
 }
 
 .input-box>label{
@@ -445,7 +446,7 @@ form>p{
 }
 
 .btnenviar>input{
-    font-weight: bolder;
+    font-size: 1.2em;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.432);
     color: white;
