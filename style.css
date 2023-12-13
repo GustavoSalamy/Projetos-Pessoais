@@ -386,6 +386,43 @@ div.informacoessah {
     margin: auto;
 }
 
+form{
+    background-color: rgba(0, 0, 0, 0.445);
+    text-align: center;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+form>p{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.input-box>label{
+    display: block;
+}
+
+.input-box{
+    margin-bottom: 20px;
+}
+
+.input-box>input{
+    width: 60%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.btnenviar>input{
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    height: 50px;
+}
+
 div.int-footer>a {
     text-decoration: none;
     color: white;
