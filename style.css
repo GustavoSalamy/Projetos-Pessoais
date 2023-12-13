@@ -358,6 +358,10 @@ div#news {
     box-shadow: #52488598 0px 0px 45px -7px;
 }
 
+#temanews{
+    margin-bottom: 40px;
+}
+
 footer {
     padding: 30px;
     color: white;
@@ -386,8 +390,32 @@ div.informacoessah {
     margin: auto;
 }
 
+div.int-footer>a {
+    text-decoration: none;
+    color: white;
+}
+
+div.informacoessah>a {
+    text-decoration: none;
+    color: white;
+}
+
+div.moreinfo {
+    line-height: 15px;
+    font-size: 0.9em;
+}
+
+div#leads{
+    width: 100%;
+    color: white;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
 form{
-    background-color: rgba(0, 0, 0, 0.445);
+    box-shadow: #a2bd9fc7 0px 0px 45px -7px;
+    background-color: #9e8bff;
     text-align: center;
     margin: 30px auto;
     width: 50%;
@@ -395,6 +423,7 @@ form{
 }
 
 form>p{
+    font-size: 1.5em;
     padding: 20px;
     margin: 0;
     text-align: center;
@@ -416,26 +445,16 @@ form>p{
 }
 
 .btnenviar>input{
+    font-weight: bolder;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
     cursor: pointer;
     border-radius: 10px;
     border: none;
     text-align: center;
     height: 50px;
-}
-
-div.int-footer>a {
-    text-decoration: none;
-    color: white;
-}
-
-div.informacoessah>a {
-    text-decoration: none;
-    color: white;
-}
-
-div.moreinfo {
-    line-height: 15px;
-    font-size: 0.9em;
+    margin-bottom: 10px;
 }
 
 div#iraotopo{
